@@ -1,0 +1,67 @@
+:root{
+    --color-texto: black;
+
+    --fuente-textos: 'Montserrat',
+}
+
+.flex-container{
+    display: flex;
+    height: 70vh;
+	padding: 0px 2px 20px 0px;
+}
+
+.escribinos{
+    width: 50%;
+
+    background-color: #8F765A;
+    color: aliceblue;
+    font-family: var(--fuente-textos);
+	font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    text-align: center;
+    padding: 20px;
+	justify-content: center;
+
+	
+}
+
+.form-contacto{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+	
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input{
+    padding: 3px;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+
+form input[type=submit] 
+	{ 	background-color: #8F765A;
+		color: white;
+		 border-radius: 5px;
+		
+}
+
+.form p 
+	{clear:both; 
+	padding: 20px 0px; 
+	font-weight: bold;}
+
+
+.footer-contacto{
+    margin-top: 20px;
+}
+
