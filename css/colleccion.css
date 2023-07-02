@@ -1,0 +1,122 @@
+:root{
+    --color-texto: black;
+
+    --fuente-textos:  'Montserrat', sans-serif;
+}
+h1{
+    font-family: var(--fuente-textos);
+}
+main{
+    display: flex;
+    flex-flow: wrap ;
+    gap: 30px;
+
+    justify-content: center;
+}
+.caja-portadas{
+    display: flex;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+.portada{
+    height: 80vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.por1{
+    background-image: url(../assets/Imagen\ de\ WhatsApp\ 2023-07-02\ a\ las\ 14.50.11.jpg);
+    background-position: right;
+}
+.por2{
+    background-image: url(../assets/Imagen\ de\ WhatsApp\ 2023-07-02\ a\ las\ 14.50.13.jpg);
+    background-position: left;
+}
+
+.titulo-conjunto2{
+    width: 100vw;
+    font-family: var(--fuente-textos);
+}
+
+.producto{
+    max-width: 400px;
+}
+
+.producto h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+    padding: 20px;
+}
+
+.fotos{
+    display: flex;
+}
+.foto{
+    width: 50%;
+    height: 50vh;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.producto p{
+    text-align: left;
+    padding: 10px;
+    font-family: var(--fuente-textos);
+}
+
+.producto .precio{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.digital-a{
+    background-position: right;
+    background-image: url(../assets/Imagen\ de\ WhatsApp\ 2023-07-02\ a\ las\ 14.40.58.jpg);
+}
+
+.digital-b{
+    background-position: left;
+    background-image: url(../assets/capucha-atras.jpg);
+}
+
+.pantalon-a{
+    background-position: right;
+    background-image: url(../assets/Imagen\ de\ WhatsApp\ 2023-07-02\ a\ las\ 15.27.18.jpg);
+}
+
+.pantalon-b{
+    background-position: left;
+    background-image: url(../assets/pantalon2.jpg);
+}
+
+.campera{
+    width: 100%;
+    height: 30vh;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url(../assets/Imagen\ de\ WhatsApp\ 2023-07-02\ a\ las\ 14.43.37.jpg) ;
+}
+
+.pantalon{
+    width: 100%;
+    height: 30vh;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(../assets/pantalon1.jpg) ;
+}
+
+.producto .detalles{
+    text-align: left;
+    padding: 10px ;
+}
